@@ -23,7 +23,17 @@ A generic AI résumé writer may overlook relevant qualifications, introduce uns
 This project was designed to address those challenges through a reusable, controlled AI workflow.
 
 ## Workflow Architecture
-
+```mermaid
+flowchart TD
+    A["Job Description and Master Resume"] --> B["Analyze Requirements"]
+    B --> C{"Proceed?"}
+    C -->|No| D["Consider Other Jobs"]
+    C -->|Yes| E["Tailor Resume and Cover Letter"]
+    E --> F{"User Approves?"}
+    F -->|Revise| E
+    F -->|Yes| G["Generate Documents"]
+    G --> H["Provide Job Search Leads"]
+```
 ### Stage 1: Job Analysis and Application Strategy
 
 The Gem is instructed to:
