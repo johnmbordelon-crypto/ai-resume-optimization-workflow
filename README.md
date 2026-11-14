@@ -101,6 +101,11 @@ The workflow specifies document types, formatting expectations, filenames, and r
 
 ## Real-World Case Study: Workforce Management Real Time Analyst
 
+**[Read the complete Devoted Health case study](CASE_STUDY.md)**
+
+This case study documents the evaluation of an actual Gemini-generated résumé against the employer's job requirements, including strengths, quality-control findings, and recommended workflow improvements.
+
+
 A test case involved tailoring a professional workforce management résumé for a Workforce Management Real Time Analyst position at Devoted Health.
 
 The job description emphasized real-time queue operations, staffing adjustments, intraday performance monitoring, standard operating procedures, cross-functional collaboration, and spreadsheet analysis.
